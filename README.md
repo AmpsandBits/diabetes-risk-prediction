@@ -55,6 +55,18 @@ This is useful for early detection and risk screening — especially in resource
 - It returns whether the user is likely at risk of diabetes or not
 
 ---
+## 📊 Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+## 🎯 Feature Importance
+![Feature Importance](feature_importance.png)
+
+## 🔍 SHAP Summary
+![SHAP Summary](SHAP_summary.png)
+
+## 🖥️ Streamlit Web App UI (High and Low risks)
+![Streamlit App](streamlit_ui.png)
+![Streamlit App](hi.png)
 
 ## 🚀 To Run the Web App
 
@@ -62,4 +74,6 @@ Make sure you have Python + Streamlit installed.
 
 ```bash
 pip install streamlit joblib
-streamlit run app.py
+streamlit run app.py```
+
+
